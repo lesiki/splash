@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+img {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+img#1 {
+  z-index: 4;
+}
+img#2 {
+  z-index: 3;
+}
+img#3 {
+  z-index: 2;
+}
+img#4 {
+  z-index: 1;
+}
+#header {
+  z-index: 5;
+  position: fixed;
+  top: 40;
+  left: 10;
+  font-size: 12pt;
+  color: #fff;
+  text-shadow: 0 0 4px #141414;
+  -moz-transform: scale(1) rotate(90deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+  -webkit-transform: scale(1) rotate(90deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+  -o-transform: scale(1) rotate(90deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+  -ms-transform: scale(1) rotate(90deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+  transform: scale(1) rotate(90deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+  -webkit-transition: all 200ms ease-in;
+  -moz-transition: all 200ms ease-in;
+  -ms-transition: all 200ms ease-in;
+  -o-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+}
